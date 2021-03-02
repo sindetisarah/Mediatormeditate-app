@@ -1,5 +1,7 @@
 h1{
     color :blue;
+    text-align: center;
+    display: block;
 }
 .Button
 {
@@ -10,7 +12,14 @@ h1{
   border: 1px solid coral;
   border-radius: 25px;
   text-decoration: none;
+  text-align: center;
 }
+.button{
+  padding-left: 40%;
+  padding-bottom: 30px;
+}
+  
+
 .Button:hover
 {
   background: coral;
@@ -20,6 +29,37 @@ h1{
 
 video {
     /* override other styles to make responsive */
-    width: 70%    !important;
-    height: auto   !important;
+    width: 50%    !important;
+    height: 40%  !important;
   }
+  p.frends{
+
+  text-align: center;
+  font-size: 30px;
+
+  }
+  .centerize{
+    text-align: center;
+  }
+  .h2{
+     font-size: 25px;
+  }
+  #pic{
+    float: left;
+    height: 150px;
+    width:150px;
+  }
+  
+  body{
+    background-image: url("images/1.webp");
+    
+    text-align: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-bottom: 8%;
+    font-family: 'Underdog', cursive;
+    width: auto;
+    overflow-x: hidden;
+}
+  
