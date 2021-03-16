@@ -1,0 +1,83 @@
+
+
+/* .li{
+   display: inline-block;
+   padding: 10px;
+   background: rgba(0, 255, 128,1);
+   border-radius: 50px;
+   padding: 20px;
+   box-shadow: 0px 2px 5px 4px rgb(128, 128, 128) ;
+} */
+li{
+  display: inline-block;
+    background:goldenrod;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow:greenyellow;
+    margin-top: 0%; 
+}
+.navbar li {
+    display: inline-block;
+    
+  } 
+  /* Style the navigation bar */
+  .navbar {
+    width: 100%;
+    background-color:green;
+    overflow: auto;
+    position: sticky;
+    display:inline-block ;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 9px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color:coral;
+  }
+  #sonic{
+    border-radius: 50%;
+    
+
+  }
+  .welcome{
+    background-image: url(/images/Terry-Watkinson-Dawn-at-Stillwater-Creek.jpg);
+    background-size: cover;
+    color:black;
+    font-size: 25px;
+    font-weight: 20px;
+    
+  }
+  .welcome img{
+    height: 30px;
+  }
+  
+  #contacts{
+    margin-left: 190px;
+  }
+  .row img{
+    height: 200px;
+    width:200px;
+  }
+  #wealth{
+    padding-top:30px;
+  }
+  #row2{
+    padding-top: 35px;
+  }
+  .card{
+    border-color: goldenrod ;
+    border-width: 1.2px;
+    border-top-color: green;
+    border-bottom-color: green;
+    border-bottom-width: 5px;
+    
+  }

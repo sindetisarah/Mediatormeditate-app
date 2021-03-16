@@ -1,15 +1,16 @@
 h1{
-    color:darkblue;
+    color:black;
     text-align: center;
     display: block;
+    background-color: goldenrod;
 }
 .Button
 {
   font-size: 30px;
-  background-color: beige;
+  background-color:ghostwhite;
   margin: auto;
   padding: 20px 80px;
-  border: 1px solid coral;
+  border: 1px solid green;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
@@ -22,9 +23,10 @@ h1{
 
 .Button:hover
 {
-  background: coral;
-  text-decoration: saddlebrown;
+  background: goldenrod;
+  text-decoration: black;
   transition: .1s;
+  lighting-color: blanchedalmond;
 }
 
 video {
@@ -67,6 +69,9 @@ video {
   background-color: oldlace;
   }
   .jumbotron{
-    background-color: rgb(12, 136, 136);
+    background-color: rgb(18, 175, 141);
+  }
+  .row{
+    display:flex ;
   }
   
