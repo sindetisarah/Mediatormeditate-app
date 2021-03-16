@@ -70,8 +70,8 @@ li{
   #wealth{
     padding-top:30px;
   }
-  #row2{
-    padding-top: 35px;
+  #row2,#row3 {
+    padding-top: 40px;
   }
   .card{
     border-color: goldenrod ;
@@ -80,4 +80,9 @@ li{
     border-bottom-color: green;
     border-bottom-width: 5px;
     
+    
+  }
+  #row3 .card{
+    background-image: url(/images/mic.png);
+    background-size:cover;
   }
